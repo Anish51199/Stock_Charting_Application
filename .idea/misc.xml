@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/AdminServer/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/ConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/SectorServiceApplication/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/StockExchangeApplication/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/StockPriceApplication/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/ZuulGatewayService/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/CompanyServiceApplication/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" default="true" project-jdk-name="16" project-jdk-type="JavaSDK" />
+</project>

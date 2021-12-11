@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="CompanyServiceApplication" />
+        <module name="Stock-Market-Charting" />
+        <module name="StockPriceApplication" />
+        <module name="SectorServiceApplication" />
+        <module name="AdminServer" />
+        <module name="ZuulGatewayService" />
+        <module name="StockExchangeApplication" />
+        <module name="ConfigServer" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AdminServer" options="-parameters" />
+      <module name="CompanyServiceApplication" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
+      <module name="EurekaServer" options="-parameters" />
+      <module name="SectorServiceApplication" options="-parameters" />
+      <module name="Stock-Market-Charting" options="-parameters" />
+      <module name="StockExchangeApplication" options="-parameters" />
+      <module name="StockPriceApplication" options="-parameters" />
+      <module name="ZuulGatewayService" options="-parameters" />
+    </option>
+  </component>
+</project>
