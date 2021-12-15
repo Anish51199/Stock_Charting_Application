@@ -16,12 +16,14 @@
         <module name="ZuulGatewayService" />
         <module name="StockExchangeApplication" />
         <module name="ConfigServer" />
+        <module name="ApiGateway" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AdminServer" options="-parameters" />
+      <module name="ApiGateway" options="-parameters" />
       <module name="CompanyServiceApplication" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />

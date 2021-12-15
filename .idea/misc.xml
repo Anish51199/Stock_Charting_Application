@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/Backend/StockPriceApplication/pom.xml" />
         <option value="$PROJECT_DIR$/Backend/ZuulGatewayService/pom.xml" />
         <option value="$PROJECT_DIR$/Backend/CompanyServiceApplication/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/ApiGateway/pom.xml" />
       </list>
     </option>
   </component>

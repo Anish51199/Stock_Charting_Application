@@ -24,7 +24,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins= "http://localhost:4200")
+@CrossOrigin(origins= "*")
 @RequestMapping("/company-service/companies")
 public class CompanyController
 {

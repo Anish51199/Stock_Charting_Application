@@ -16,11 +16,11 @@ public class StockExchangeInitializer implements CommandLineRunner
     @Override
     public void run(String... args) throws Exception
     {
-        stockExchangeRepository.deleteAll();
-        StockExchange bse =new StockExchange("BSE", "Bombay Stock Exchange", "Dalal Street, Mumbai, India", "World's 10th largest stock-exchange");
-        stockExchangeRepository.save(bse);
-        StockExchange nse =new StockExchange("NSE", "National Stock Exchange", "Mumbai, India", "India's 4th largest stock-exchange");
-        stockExchangeRepository.save(nse);
+//        stockExchangeRepository.deleteAll();
+//        StockExchange bse =new StockExchange("BSE", "Bombay Stock Exchange", "Dalal Street, Mumbai, India", "World's 10th largest stock-exchange");
+//        stockExchangeRepository.save(bse);
+//        StockExchange nse =new StockExchange("NSE", "National Stock Exchange", "Mumbai, India", "India's 4th largest stock-exchange");
+//        stockExchangeRepository.save(nse);
     }
 
 }
